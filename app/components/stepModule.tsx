@@ -1,8 +1,6 @@
 import React from "react";
-import { Outfit } from "next/font/google";
 import Image from "next/image";
 
-const outfit = Outfit({ subsets: ["latin"], weight: ["300"] });
 
 function Module() {
   return (
@@ -23,7 +21,7 @@ function Module() {
               NPCF
             </h2>
             <p
-              className={`text-md text-left mt-3 leading-relaxed text-balance ${outfit.className}`}
+              className={`text-md text-left mt-3 leading-relaxed text-balance `}
             >
               The National Pediatric Cancer Foundation (NPCF) is dedicated to
               funding research aimed at developing less toxic and more effective
@@ -40,7 +38,7 @@ function Module() {
               NFCR
             </h2>
             <p
-              className={`text-md text-left mt-3 leading-relaxed text-balance text-white ${outfit.className}`}
+              className={`text-md text-left mt-3 leading-relaxed text-balance text-white `}
             >
               The National Foundation for Cancer Research (NFCR) is a global
               leader in funding cancer research, education, and public outreach.
@@ -66,7 +64,7 @@ function Module() {
               NBCF
             </h2>
             <p
-              className={`text-lg text-left mt-3 leading-relaxed text-balance ${outfit.className}`}
+              className={`text-lg text-left mt-3 leading-relaxed text-balance `}
             >
               The National Breast Cancer Foundation (NBCF) is committed to
               providing early detection, education, and support services for
