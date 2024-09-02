@@ -1,10 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { Joinlinks } from "../utils/Joinlinks";
-import { Karla } from "next/font/google";
 import Link from "next/link";
-
-const karla = Karla({ subsets: ["latin"], weight: ["700"] });
 
 function Positions() {
   return (
@@ -13,7 +10,7 @@ function Positions() {
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
           <div className="max-w-lg mx-auto text-center md:text-left lg:mx-0">
             <h1
-              className={`text-4xl md:text-5xl mt-10 text-navy-blue ${karla.className}`}
+              className={`text-4xl md:text-5xl font-bold mt-10 text-navy-blue `}
             >
               Join <span className="text-angel-blue md:pl-1">AAU</span> Today!
             </h1>

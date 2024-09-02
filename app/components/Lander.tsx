@@ -8,7 +8,7 @@ function Lander() {
     <section className="text-white pt-12">
       <div className="mx-auto max-w-screen-xl px-8 flex lg:h-[500px] items-center h-[800px]">
         <div className="mx-auto max-w-3xl text-center justify-center">
-          <h1 className="bg-gradient-to-r from-angel-blue via-grad-blue to-angel-blue bg-clip-text text-6xl font-extrabold text-transparent md:text-7xl  leading-tight md:leading-[1.2]">
+          <h1 className="bg-gradient-to-r from-angel-blue via-grad-blue to-angel-blue bg-clip-text text-5xl font-extrabold text-transparent md:text-7xl  leading-tight md:leading-[1.2]">
             Angels Among Us
             <span className="sm:block py-2"></span>
           </h1>

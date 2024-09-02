@@ -1,13 +1,11 @@
 import React from 'react'
-import { Karla } from "next/font/google";
 
-const karla = Karla({ subsets: ['latin'], weight: ['700']})
 
 function Info() {
   return (
     <section className="flex justify-center w-full mt-20" id='About'>
       <div className="w-full max-w-4xl text-center">
-        <h1 className={`text-3xl md:text-4xl px-5 text-navy-blue ${karla.className}`}>
+        <h1 className={`text-3xl font-bold md:text-4xl px-5 text-navy-blue `}>
           Transforming Lives Through <span className="text-angel-blue md:pl-1">Fundraising</span>
         </h1>
         <div className= {` flex items-center text-2xl md:text-2xl p-10 md:p-0 pt-10 `}>
