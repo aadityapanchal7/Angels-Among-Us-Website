@@ -15,7 +15,7 @@ function Info() {
         <div className= {` flex items-center text-2xl md:text-2xl p-10 md:p-0 pt-10  ${outfit.className}`}>
 
           <div className=" bg-grad-blue/80 p-5 text-2xl shadow-2xl rounded-2xl  mt-5 ">
-          At Angels Among Us, our mission is to honor the legacy of those we've lost to cancer by providing unwavering support to those still fighting, while building a compassionate community dedicated to fundraising, advocacy, and raising awareness."
+          At Angels Among Us, our mission is to honor the legacy of those we&apos;ve lost to cancer by providing unwavering support to those still fighting, while building a compassionate community dedicated to fundraising, advocacy, and raising awareness.
           </div>
 
         </div>        
