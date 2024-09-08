@@ -43,7 +43,7 @@ function Navbar() {
       
       {/* Navbar */}
       <header
-        className={` shadow-lg fixed bg-white/95 w-full top-0 left-0 rounded-3xl transition-transform duration-300 ${
+        className={` shadow-lg fixed hover:scale-100 scale-95 ease-in-out  hover:translate-y-0.5 bg-white/95 w-full top-0 left-0 rounded-3xl transition-transform duration-300 ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -88,7 +88,7 @@ function Navbar() {
               <div className="sm:flex sm:gap-4">
                 <Link
                   className="rounded-xl bg-angel-blue px-5 py-2.5 text-sm hover:bg-inherit hover:text-black hover:border-blue-400 hover:border font-medium text-white shadow"
-                  href="/login"
+                  href="/#Join"
                 >
                   Join Us!
                 </Link>

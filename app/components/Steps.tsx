@@ -4,7 +4,7 @@ import Module from './stepModule';
 
 function Steps() {
   return (
-    <section className=' mt-10' id='Steps'> 
+    <section className=' mt-10' id='Partners'> 
       <div className=' flex-col'>
       <span className="relative flex justify-center ">
       <h1 className={`text-3xl md:text-4xl mt-10 text-navy-blue font-bold `}>

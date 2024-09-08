@@ -10,11 +10,11 @@ export const Navlinks: NavLink[] = [
   },
   {
     name: 'Purpose',
-    route: '/purpose',
+    route: '/#Purpose',
   },
   {
     name: 'Partners',
-    route: '/partners',
+    route: '/#Partners',
   },
   {
     name: 'Team',

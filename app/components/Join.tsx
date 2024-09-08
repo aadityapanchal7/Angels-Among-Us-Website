@@ -23,7 +23,7 @@ function Positions() {
             </p>
 
             <Link
-              href="#"
+              href="https://docs.google.com/spreadsheets/d/1z3PsdRlNxsqzwvy0S6SthbRKAgKhSFsQHdgous3_wGE/edit?gid=0#gid=0"
               target="_blank"
               className="md:inline-block hidden  px-12 py-3 mt-8 text-sm font-medium text-white transition border border-navy-blue rounded-md bg-angel-blue hover:bg-white hover:text-navy-blue"
             >
@@ -36,7 +36,8 @@ function Positions() {
               <Link
                 className="block p-4 border-2 border-angel-blue shadow-sm rounded-xl hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring "
                 key={index}
-                href="#"
+                href={item.path}
+                target={item.where}
               >
                 <span className="inline-block p-3 rounded-lg bg-gray-50">
                   <LuGraduationCap />
