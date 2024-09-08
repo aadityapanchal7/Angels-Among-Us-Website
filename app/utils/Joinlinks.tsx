@@ -2,7 +2,7 @@ export const Joinlinks = [
   {
     name: 'Create a Chapter!',
     Reqs: 'Create a chapter today, to help make an impact towards the battle against cancer.',
-    path: 'https://docs.google.com/spreadsheets/d/1z3PsdRlNxsqzwvy0S6SthbRKAgKhSFsQHdgous3_wGE/edit?gid=0#gid=0',
+    path: 'https://forms.gle/wK15fstK1GRck69PA',
     where: '__blank',
   },
   {

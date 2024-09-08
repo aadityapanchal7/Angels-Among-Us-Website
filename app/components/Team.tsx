@@ -71,7 +71,7 @@ function Team() {
 
           <div className="mt-5 mx-10">
             {/* Adjust grid to be responsive */}
-            <div className="grid grid-cols-1 md:space-y-0 space-y-2 sm:grid-cols-2 md:grid-cols-3 md:gap-36 ">
+            <div className="grid grid-cols-1 md:space-y-0 space-y-2 sm:grid-cols-2 md:grid-cols-4 md:gap-32 ">
               {Directors.map((item, index) => (
                 <div key={index} className="flex flex-col items-center  text-center mx-2">
                   <Image 

@@ -23,7 +23,7 @@ function Positions() {
             </p>
 
             <Link
-              href="https://docs.google.com/spreadsheets/d/1z3PsdRlNxsqzwvy0S6SthbRKAgKhSFsQHdgous3_wGE/edit?gid=0#gid=0"
+              href="https://forms.gle/wK15fstK1GRck69PA"
               target="_blank"
               className="md:inline-block hidden  px-12 py-3 mt-8 text-sm font-medium text-white transition border border-navy-blue rounded-md bg-angel-blue hover:bg-white hover:text-navy-blue"
             >

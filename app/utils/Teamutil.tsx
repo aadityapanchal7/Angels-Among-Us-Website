@@ -77,4 +77,9 @@ export const Directors: Director[] = [
     dirname: 'Litesh Danesh' ,
     dirdesc: 'Director of Logistics',
   },
+  {
+    dirimage: '/eshanth.jpg',
+    dirname: 'Eshanth Srinivas' ,
+    dirdesc: 'Director of Public Relations',
+  },
 ];
