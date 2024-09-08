@@ -35,7 +35,7 @@ export const BoardMembers: BoardMember[] = [
     boarddesc: 'VP of Outreach',
   },
   {
-    boardimage: '/preeti.png',
+    boardimage: '/preeti.PNG',
     boardname: 'Preeti Reddy',
     boarddesc: 'VP of Technology',
   },
@@ -63,7 +63,7 @@ export interface Director {
 
 export const Directors: Director[] = [
   {
-    dirimage: '/Prahasini.png',
+    dirimage: '/Prahasini.PNG',
     dirname: 'Prahasini Siripurapu' ,
     dirdesc: 'Director of Education',
   },
