@@ -1,9 +1,71 @@
-import React from 'react'
+import React from "react";
+import { Updates } from "../utils/updates";
+
 
 function News() {
   return (
-    <div>News</div>
-  )
+    <section>
+      <div className="w-full flex justify-center mt-20">
+        <h1 className="text-4xl md:text-5xl font-bold mt-10 text-navy-blue">
+          Our News
+        </h1>
+      </div>
+
+      <div className=" grid md:grid-cols-3 grid-cols-1 justify-center w-full items-center   ">
+        {Updates.map((item, index) => (
+          <div className=" w-full justify-center items-center flex mt-10" key={index}>
+            <div className=" h-40 bg-gradient-to-r hover:scale-105 duration-300 transition from-grad-blue to-angel-blue rounded-lg w-80 shadow-lg text-white text-center items-center justify-center flex">
+              <div className=" flex-col text-2xl font-bold">
+                <p>{item.Number}</p>
+                <span className=" mt-10">{item.Desc}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className=" mt-10 w-full justify-center items-center ">
+        <a href='https://docs.google.com/spreadsheets/d/1z3PsdRlNxsqzwvy0S6SthbRKAgKhSFsQHdgous3_wGE/edit?gid=0#gid=0' target="__blank">
+          <button className=" w-full h-20 border border-x-angel-blue text-2xl text-navy-blue font-semibold border-y-grad-blue hover:bg-angel-blue hover:scale-95 scale-90 duration-300 transition from-grad-blue to-angel-blue rounded-2xl">
+            Chapter Database
+          </button>
+        </a>
+      </div>
+
+      <div className="w-full flex justify-center md:mt-5">
+        <h1 className="text-4xl md:text-5xl font-bold mt-10 text-navy-blue">
+          Our Achievements!
+        </h1>
+      </div>
+
+      <div className=" md:mt-10 mt-10 w-full justify-center items-center px-20 ">
+        <div className=" md:flex">
+          <img className=" border-r-8 rounded-2xl" src='https://mail.google.com/mail/u/0?ui=2&ik=280ff7b784&attid=0.1&permmsgid=msg-a:r6033254577685468257&th=192634dbffd45051&view=fimg&disp=thd&attbid=ANGjdJ9KBppl2r3husqspLwoideeIOnKYLG2wj0I4nDh1a_qBISU6hNTky-Go-AYNWCTRfKKdgIuS1Fr11a52q-Zb7HZvvLc1eNUcOvdddLSn8sbIdpD2Y5wZjikgoU&ats=2524608000000&sz=w1920-h826'
+          height={500}
+          alt="decaimage"
+          width={500}
+          />
+          <div className=" pl-10 md:text-3xl text-xl font-semibold">
+            <ul className="list-disc md:space-y-16 mt-2 text-angel-blue">
+              <li>DECA ‘23 MDA Corporate Challenge</li>
+              <li>DECA ‘23 MDA Corporate Challenge</li>
+              <li>10+ Partners</li>
+              <li>3+ News Features</li>
+            </ul>
+          </div>
+        </div >
+      </div>
+      
+      <div className=" mt-10 w-full justify-center items-center ">
+        <a href='mailto:aneesh@aaufundraising.org' target="__blank">
+          <button className=" w-full h-20 border text-2xl text-navy-blue font-semibold border-y-grad-blue hover:scale-95 scale-90 duration-300 transition bg-angel-blue hover:bg-inherit rounded-2xl">
+            Contact Us!
+          </button>
+        </a>
+      </div>
+
+    </section>
+  );
 }
 
-export default News
+export default News;

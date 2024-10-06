@@ -35,7 +35,7 @@ function Footer() {
             <FaInstagram className="h-6 w-6" />
           </Link>
           <Link
-            href="https://www.tiktok.com/@angelsamongusnpcf"
+            href="https://www.tiktok.com/@angelsamongusnpo"
             className="text-blue-950 hover:text-blue-300"
             target="__blank"
           >
