@@ -46,7 +46,7 @@ export const BoardMembers: BoardMember[] = [
   },
   {
     boardimage: '/nysa.jpg',
-    boardname: 'Nysa Kharia',
+    boardname: 'Nysa Karia',
     boarddesc: 'VP of Information',
   },
   {
