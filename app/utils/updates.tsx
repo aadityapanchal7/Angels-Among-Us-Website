@@ -12,7 +12,7 @@ export const Updates = [
     Desc: 'Raised!',
   },
   {
-    Number: '$75,000',
+    Number: '75,000+',
     Desc: 'People Reached!',
   },
   {
