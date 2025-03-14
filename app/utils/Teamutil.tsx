@@ -83,7 +83,7 @@ export const Directors: Director[] = [
     dirdesc: 'Director of Public Relations',
   },
   {
-    dirimage: '',
+    dirimage: '/aadi.jpeg',
     dirname: 'Aaditya Panchal' ,
     dirdesc: 'Director of Development',
   },
