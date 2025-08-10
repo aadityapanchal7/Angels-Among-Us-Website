@@ -1,14 +1,14 @@
 export const Updates = [
   {
-    Number: '8+',
+    Number: '18+',
     Desc: 'States',
   },
   {
-    Number: '30+',
+    Number: '80+',
     Desc: 'Chapters',
   },
   {
-    Number: '$25,000+',
+    Number: '$30,000+',
     Desc: 'Raised!',
   },
   {

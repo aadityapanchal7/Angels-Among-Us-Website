@@ -42,7 +42,7 @@ function Footer() {
             <FaTiktok className="h-6 w-6" />
           </Link>
           <Link
-            href="mailto:aneesh@aaufundraising.org"
+            href="mailto:aneesh@aaunonprofit.org"
             className="text-blue-950 hover:text-blue-300"
             target="__blank"
           >

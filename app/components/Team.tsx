@@ -15,9 +15,7 @@ function Team() {
 
       <div className="w-full flex justify-center mt-8">
         <div className="flex flex-col text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mt-10 text-angel-blue">
-            Founders
-          </h2>
+
 
           <div className="mt-5 mx-10">
             {/* Adjust grid to be responsive */}
@@ -29,7 +27,7 @@ function Team() {
                     alt="img"
                     width={200}
                     height={200}
-                    className=" rounded-xl border-4 border-black"
+                    className="w-[200px] h-[200px] object-cover rounded-xl border-4 border-black"
                   />
 
                   <div className="font-semibold mt-2">{item.name}</div>
@@ -40,9 +38,6 @@ function Team() {
             </div>
           </div>
 
-          <h2 className="text-3xl md:text-4xl font-bold mt-16 text-angel-blue">
-            National Board Vice Presidents
-          </h2>
 
           <div className="mt-5">
             {/* Adjust grid to be responsive */}
@@ -54,7 +49,7 @@ function Team() {
                     alt="img"
                     width={200}
                     height={200}
-                    className=" rounded-xl border-4 border-black"
+                    className="w-[200px] h-[200px] object-cover rounded-xl border-4 border-black"
                   />
 
                   <div className="font-semibold mt-2">{item.boardname}</div>
@@ -65,9 +60,7 @@ function Team() {
             </div>
           </div>
 
-          <h2 className="text-3xl md:text-4xl font-bold mt-16 text-angel-blue">
-            National Board Directors
-          </h2>
+
 
           <div className="mt-5 mx-10">
             {/* Adjust grid to be responsive */}
@@ -79,7 +72,7 @@ function Team() {
                     alt="img"
                     width={200}
                     height={200}
-                    className=" rounded-xl border-4 border-black"
+                    className="w-[200px] h-[200px] object-cover rounded-xl border-4 border-black"
                   />
 
                   <div className="font-semibold mt-2">{item.dirname}</div>

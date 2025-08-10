@@ -5,21 +5,7 @@ export interface types {
 }
 
 export const Teamutil: types[] = [
-  {
-    image: '/shawn.png',
-    name: 'Shawn Sebastian',
-    desc: 'Founder & President',
-  },
-  {
-    image: '/rohit.png',
-    name: 'Rohit Katuri',
-    desc: 'Founder & Co-President',
-  },
-  {
-    image: '/aneesh.jpg',
-    name: 'Aneesh Chintala',
-    desc: 'Founder & Vice President',
-  },
+
 ];
 
 export interface BoardMember {
@@ -30,9 +16,19 @@ export interface BoardMember {
 
 export const BoardMembers: BoardMember[] = [
   {
-    boardimage: '/saamia.JPG',
+    boardimage: '/aneesh.jpeg',
+    boardname: 'Aneesh Chintala',
+    boarddesc: 'Founder & President',
+  },
+    {
+    boardimage: '/nysa.jpg',
+    boardname: 'Nysa Karia',
+    boarddesc: 'Vice President',
+  },
+  {
+    boardimage: '/saamia.webp',
     boardname: 'Saamia Sayani',
-    boarddesc: 'VP of Outreach',
+    boarddesc: 'VP of External Affairs',
   },
   {
     boardimage: '/preeti.PNG',
@@ -40,20 +36,26 @@ export const BoardMembers: BoardMember[] = [
     boarddesc: 'VP of Technology',
   },
   {
-    boardimage: '/rohan.JPG',
-    boardname: 'Rohan Rahman',
+    boardimage: '/aditya.jpeg',
+    boardname: 'Aditya Rao',
+    boarddesc: 'VP of Finance',
+  },
+  {
+    boardimage: '/manasi.jpeg',
+    boardname: 'Manasi Shah',
     boarddesc: 'VP of Marketing',
   },
   {
-    boardimage: '/nysa.jpg',
-    boardname: 'Nysa Karia',
-    boarddesc: 'VP of Information',
+    boardimage: '/Prahasini.jpeg',
+    boardname: 'Prahasini Siripurapu' ,
+    boarddesc: 'VP of Education',
   },
-  {
-    boardimage: '/hrishik.jpg',
-    boardname: 'Hrishik Gogineni',
-    boarddesc: 'VP of Finance',
+    {
+    boardimage: '/aadi.jpeg',
+    boardname: 'Aaditya Panchal', 
+    boarddesc: 'VP of Development',
   },
+  
 ];
 export interface Director {
   dirimage: string;
@@ -62,30 +64,6 @@ export interface Director {
 }
 
 export const Directors: Director[] = [
-  {
-    dirimage: '/Prahasini.PNG',
-    dirname: 'Prahasini Siripurapu' ,
-    dirdesc: 'Director of Education',
-  },
-  {
-    dirimage: '/madhav.jpg',
-    dirname: 'Madhav Hadagali' ,
-    dirdesc: 'Director of Media',
-  },
-  {
-    dirimage: '/litesh.jpeg',
-    dirname: 'Litesh Danesh' ,
-    dirdesc: 'Director of Logistics',
-  },
-  {
-    dirimage: '/eshanth.jpg',
-    dirname: 'Eshanth Srinivas' ,
-    dirdesc: 'Director of Public Relations',
-  },
-  {
-    dirimage: '/aadi.jpeg',
-    dirname: 'Aaditya Panchal' ,
-    dirdesc: 'Director of Development',
-  },
+
 
 ];

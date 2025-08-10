@@ -40,7 +40,7 @@ function News() {
 
       <div className=" md:mt-10 mt-10 w-full justify-center items-center px-20 ">
         <div className=" md:flex">
-          <img className=" border-r-8 rounded-2xl" src='https://mail.google.com/mail/u/0?ui=2&ik=280ff7b784&attid=0.1&permmsgid=msg-a:r6033254577685468257&th=192634dbffd45051&view=fimg&disp=thd&attbid=ANGjdJ9KBppl2r3husqspLwoideeIOnKYLG2wj0I4nDh1a_qBISU6hNTky-Go-AYNWCTRfKKdgIuS1Fr11a52q-Zb7HZvvLc1eNUcOvdddLSn8sbIdpD2Y5wZjikgoU&ats=2524608000000&sz=w1920-h826'
+          <img className=" border-r-8 rounded-2xl" src='deca_aau.jfif'
           height={500}
           alt="decaimage"
           width={500}
@@ -57,7 +57,7 @@ function News() {
       </div>
       
       <div className=" mt-10 w-full justify-center items-center ">
-        <a href='mailto:aneesh@aaufundraising.org' target="__blank">
+        <a href='mailto:aneesh@aaunonprofit.org' target="__blank">
           <button className=" w-full h-20 border text-2xl text-navy-blue font-semibold border-y-grad-blue hover:scale-95 scale-90 duration-300 transition bg-angel-blue hover:bg-inherit rounded-2xl">
             Contact Us!
           </button>
